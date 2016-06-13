@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300);
+@font-face {
+    font-family: 'vetkaregular';
+    src: url('../fonts/vetka-webfont.eot');
+    src: url('../fonts/vetka-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vetka-webfont.woff') format('woff'),
+         url('../fonts/vetka-webfont.ttf') format('truetype'),
+         url('../fonts/vetka-webfont.svg#vetkaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
