@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../../fonts/icomoon.eot?8nqtqc');
+    src:    url('../../fonts/icomoon.eot?8nqtqc#iefix') format('embedded-opentype'),
+        url('../../fonts/icomoon.ttf?8nqtqc') format('truetype'),
+        url('../../fonts/icomoon.woff?8nqtqc') format('woff'),
+        url('../../fonts/icomoon.svg?8nqtqc#icomoon') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-chevron-thin-left:before {
+    content: "\e903";
+}
+.main-slider{
+	padding: 0;
+	margin: 0 0 60px;
+}
+.main-slider img{
+	border: 1px solid #7f7f7f;
+}
+.main-slider .container{
+	width: 961px;
+	margin: 0 auto;	
+}
+.main-slider li{
+	display: block;
+	overflow: hidden;
+}
+.main-slider .image-holder{
+	max-width: 349px;
+	float: left;
+}
+.main-slider .image-box{
+	width: 598px;
+	float: right;
+}
+.main-slider .image-folder{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 13px;
+}
+.main-slider .image-secondfolder{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.slick-active{
+	outline: none;
+}
+.slick-prev{
+	position:absolute;
+	top:50%;
+	left:-133px;
+	background: none;
+	border:none;
+	text-indent: -9999px;
+	outline: none;
+	cursor: pointer;
+	width: 28px;
+	height: 65px;
+}
+.slick-prev:hover{
+	outline: none;
+}
+.slick-prev:before{
+	content: "\e903";
+	clear: both;
+	position:absolute;
+	top:0;
+	left: 0;
+	font-size: 5em;
+	font-family: 'icomoon';
+	color:#393c3d;
+	text-indent: 0 !important;
+	margin: 0;
+}
+.slick-next{
+	position:absolute;
+	top:50%;
+	right:-133px;
+	background: none;
+	border:none;
+	text-indent: -9999px;
+	outline: none;
+	cursor: pointer;
+	width: 28px;
+	height: 65px;
+}
+.slick-next:hover{
+	outline: none;
+}
+.slick-next:before{
+	content: "\e903";
+	clear: both;
+	position:absolute;
+	top: 0;
+	right: 0;
+	font-size: 5em;
+	font-family: 'icomoon';
+	font-weight: 300;
+	color:#393c3d;
+	margin: 0;
+	text-indent: 0 !important;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.reviews-slider{
+	padding: 28px 0;
+	margin: 0 0 105px;
+	background: #c6ced1;
+}
+.reviews-slider img{
+	border: 1px solid #7f7f7f;
+	border-radius: 50%;
+	margin: 0 0 14px;
+}
+.reviews-slider li{
+	padding: 3px 0 0;
+}
+.reviews-slider .image-holder{
+	max-width: 235px;
+	float: left;
+	margin: 35px 0 0 91px;
+}
+.reviews-slider .image-holder span{
+	font-weight: 300;
+	font-size: 0.77em;
+}
+.reviews-slider .image-box{
+	width: 598px;
+	float: right;
+}
+.reviews-slider .text-holder{
+	max-width: 500px;
+	overflow: hidden;
+	margin: -62px 0 0;
+}
+.reviews-slider .text-holder h3{
+	font-weight: 400;
+	font-size: 3.33em;
+	padding: 12px 0 0;
+	text-align: center;
+}
+.reviews-slider .text-holder q{
+	font-weight: 400;
+	font-size: 1em;
+}

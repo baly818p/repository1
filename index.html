@@ -2,17 +2,40 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<script defer  src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script defer src="js/slick.min.js"></script>
+	<script defer src="js/index.js"></script>
+	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	 <script type="text/javascript">
+	  ymaps.ready(init);
+	  function init () {
+	      var map = new ymaps.Map('map', {
+	              center: [50.02763459, 36.22491717],
+	              zoom: 16
+	          }),
+	          counter = 0;
+	      map.behaviors.disable('scrollZoom');
+	  }
+	 </script>
 	<title>School makeup</title>
 </head>
 <body>
 	<div class="wrapper">
 		<header class="header">
+			<div class="burger-btn"><span>&nbsp;</span></div>
+			<nav class="nav-menu">
+				<a class="a-first" href="#">Главная</a>
+				<a href="#">Программы обучения</a>
+				<a href="#">Почему стоит выбрать нас</a>
+				<a href="#">Работы выпускников школы</a>
+				<a href="#">Команда профессионалов</a>
+				<a href="#">Отзывы</a>
+				<a class="a-end" href="#">Контакты</a>
+			</nav>
 			<div class="container">
-				<a href="#" class="logo">
-					<img src="images/logo.png" alt="Logo" />
-					Make up
-				</a>
+				<strong class="logo"><a href="#"><img src="images/logo.png" alt="Logo" />Make up</a></strong>
 				<div class="contact-box">
 					<a class="telephone" href="callto:0638810342">
 						<span> (063) 88-103-42</span>
@@ -25,9 +48,288 @@
 		</header>
 		<div class="main">
 			<div class="promo-frame">
-				
+				<div class="container">
+					<div class="text-holder">
+						<h2>Школа макияжа Елены Крыгиной</h2>
+						<span>Обучаем искусству макияжа</span>
+						<a href="#">Записаться</a>
+					</div>
+					<img src="images/girl.png" alt="">
+				</div>
+			</div>
+			<div class="program-box">
+				<div class="topic">
+					<span>Программы обучения</span>
+				</div>
+				<ul class="programs">
+					<li>
+						<div class="image-holder">
+							<img src="images/foto-01.jpg"  alt=""  width="670"  height="246">
+						</div>
+						<h4>Базовый курс для визажистов</h4>
+						<ul class="service-list">
+							<li class="value">Стоимость: 6500 грн/21 занятие</li>
+							<li class="quantity">Количество человек в группе: 5-6</li>
+							<li class="teacher">Преподаватель: Елена Крыгина</li>
+							<li class="duration">Продолжительность занятия: 3-4 часа</li>
+							<li class="provided">Косметика для работы и модели предоставляются</li>
+							<li class="diploma">Выдается диплом об окончании курса</li>
+						</ul>
+					</li>
+					<li>
+						<div class="image-holder">
+							<img src="images/foto-02.jpg"  alt=""  width="670"  height="246">
+						</div>
+						<h4>Курс “Макияж для себя”</h4>
+						<ul class="service-list">
+							<li class="value">Стомость: 1500 грн / 3 занятия</li>
+							<li class="quantity">Индивидуальные занятия</li>
+							<li class="teacher">Преподаватель: Елена Крыгина; Юлия Иванова</li>
+							<li class="duration">Продолжительность занятия: 1.5 часа</li>
+							<li class="diploma">Научим вас делать макияж самостоятельно для 	повседневной жизни и для выхода в свет - Соберем правильную косметичку для вас </li>
+						</ul>
+					</li>
+					<li>
+						<div class="image-holder">
+							<img src="images/foto-03.jpg"  alt=""  width="670"  height="246">
+						</div>
+						<h4>Курс “Body-art”</h4>
+						<ul class="service-list">
+							<li class="value">Стоимость 3500 грн/12 занятий</li>
+							<li class="quantity">Количество человек в группе: 4-5 </li>
+							<li class="teacher">Преподаватель: Юлия Иванова</li>
+							<li class="duration">Продолжительность занятия: 4-5 часов</li>
+							<li class="provided">Косметика для работы и модели предоставляются</li>
+							<li class="diploma">Выдается диплом об окончании курса</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="advantages-box">
+				<div class="topic">
+					<span>Почему стоит выбрать нас</span>
+				</div>
+				<ul class="advantages">
+					<li>
+						<div class="li-box">
+							<div class="image-holder">
+								<img src="images/img-07.png"  alt=""  width="176"  height="176">
+							</div>
+							<h4>Вам не нужна косметика чтобы начать</h4>
+							<span>Профессиональная косметика на время обучения бесплатно</span>
+						</div>
+					</li>
+					<li>
+						<div class="li-box">
+							<div class="image-holder">
+								<img src="images/img-08.png"  alt=""  width="176"  height="176">
+							</div>
+							<h4>5% скидка на покупку косметики</h4>
+							<span>для студентов и выпускников возможность протестировать</span>
+						</div>
+					</li>
+					<li>
+						<div class="li-box">
+							<div class="image-holder">
+								<img src="images/img-09.png"  alt=""  width="176"  height="176">
+							</div>
+							<h4>Больше 80 % обучения это практика</h4>
+							<span>Вам не нужно быть художником чтобы стать визажистом</span>
+						</div>
+					</li>
+					<li>
+						<div class="li-box">
+							<div class="image-holder">
+								<img src="images/img-10.png"  alt=""  width="176"  height="176">
+							</div>
+							<h4>Стажировка после обучения на сьемках</h4>
+							<span>Мы сотрудничаем с AIROPORT, Шоколадка Nika Models, Eshta Studio</span>
+						</div>
+					</li>
+					<li>
+						<div class="li-box">
+							<div class="image-holder">
+								<img src="images/img-11.png"  alt=""  width="176"  height="176">
+							</div>
+							<h4>Помогаем создать круг клиентов</h4>
+							<span>Из 300 выпускников школы 100 уже успешные визажисты</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="graduates-work">
+				<div class="topic">
+					<span>Работы выпускников школы</span>
+				</div>
+				<div class="main-slider">
+					<ul class="container">
+						<li>
+							<div class="image-holder">
+								<img src="images/foto-04.jpg"  alt=""  width="347"  height="479">
+							</div>
+							<div class="image-box">
+								<div class="image-folder">
+									<img src="images/foto-05.jpg"  alt="" >
+									<img src="images/foto-06.jpg"  alt="" >	
+								</div>
+								<div class="image-secondfolder">
+									<img src="images/foto-07.jpg"  alt="" >
+									<img src="images/foto-08.jpg"  alt="" >
+									<img src="images/foto-09.jpg"  alt="" >
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="image-holder">
+								<img src="images/foto-04.jpg"  alt=""  width="347"  height="479">
+							</div>
+							<div class="image-box">
+								<div class="image-folder">
+									<img src="images/foto-05.jpg"  alt="" >
+									<img src="images/foto-06.jpg"  alt="" >	
+								</div>
+								<div class="image-secondfolder">
+									<img src="images/foto-07.jpg"  alt="" >
+									<img src="images/foto-08.jpg"  alt="" >
+									<img src="images/foto-09.jpg"  alt="" >
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="command">
+				<div class="topic">
+					<span>Команда профессионалов</span>
+				</div>
+				<div class="command-list">
+					<div class="image-holder">
+						<img src="images/foto-10.jpg"  alt="">
+					</div>
+					<div class="text-holder">
+						<strong>Елена Крыгина</strong>
+						<span>Преподает “Базовый курс для визажистов” </br>и курс “Макияж для себя” </br> чемпионка мира и Европы </br> Руководитель школы</span>
+					</div>
+				</div>
+				<div class="command-list">
+					<div class="image-holder">
+						<img src="images/foto-11.jpg"  alt="">
+					</div>
+					<div class="text-holder">
+						<strong>Юлия Иванова</strong>
+						<span>Преподает курс “Body-Art”</br> и “Макияж для себя” </br> мастер  визажа и боди арта </br> чемпионка Украины по боди арту</span>
+					</div>
+				</div>
+			</div>
+			<div class="topic">
+				<span>Отзывы</span>
+			</div>
+			<div class="reviews">
+				<div class="main-slider reviews-slider">
+					<ul class="container">
+						<li>
+							<div class="image-holder">
+								<img src="images/img-12.png"  alt="">
+								<span>Черничная Алена 32 года </br> Базовый курс для визажистов</span>
+							</div>
+							<div class="text-holder">
+								<blockquote cite="ссылка_на_источник">
+									<h3>&#8220;</h3>
+								    <q>Самая замечательная школа, чувствуеться любовь к своему делу. Занятия очень насыщенные, но атмосфера в школе уютная, домашняя. Елена Крыгина настоящий мастер своего дела, а также очень милая, добрая девушка.</q>
+								</blockquote>
+							</div>
+						</li>
+						<li>
+							<div class="image-holder">
+								<img src="images/img-12.png"  alt="">
+								<span>Черничная Алена 32 года </br> Базовый курс для визажистов</span>
+							</div>
+							<div class="text-holder">
+								<blockquote cite="ссылка_на_источник">
+									<h3>&#8220;</h3>
+								    <q>Самая замечательная школа, чувствуеться любовь к своему делу. Занятия очень насыщенные, но атмосфера в школе уютная, домашняя. Елена Крыгина настоящий мастер своего дела, а также очень милая, добрая девушка.</q>
+								</blockquote>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="topic">
+				<span>Контакты</span>
+			</div>
+			<div class="contacts">
+				<div class="maps-box">
+					
+					<div id="map">
+						<div class="contact-holder">
+							<h4>Остались вопросы? </br> Тогда звоните нам</h4>
+							<a class="telephone" href="callto:0638810342">
+								<span> (063) 88-103-42</span>
+							</a>
+							<address>
+								<span>Харьков, ул. Новгородская, 11</span>
+							</address>
+							<form action="#" class="record-form">
+								<h6>Записаться на бесплатное занятие</h6>
+								<fieldset>
+									<input class="text" type="text" placeholder="Имя"/> 
+									<input class="text" type="text" placeholder="Телефон"/> 
+									<div class="row-box">
+										<div class="row">
+											<label for="check-1">
+												<input id="check-1" type="checkbox">
+												<span class="fake-label">Базовый курс для визажистов</span>
+												<span class="fake-input"></span>
+											</label>
+										</div>	
+										<div class="row">
+											<label for="check-2">
+												<input id="check-2" type="checkbox">
+												<span class="fake-label">Курс “Макияж для себя”</span>	
+												<span class="fake-input"></span>
+											</label>
+										</div>
+										<div class="row">
+											<label for="check-3">
+												<input id="check-3" type="checkbox">
+												<span class="fake-label">Курс “Body Art”</span>
+												<span class="fake-input"></span>
+											</label>
+										</div>
+									</div>
+									<input class="submit" type="submit" value="Записаться" />	
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="social-holder">
+				<h4>Мы есть в соц. сетях</h4>
+				<ul class="social-list">
+					<li>
+						<a href="#">
+							<img src="images/facebook.png" alt="" width="16" height="31">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/twetter.png" alt="" width="32" height="26">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/youtube.png" alt="" width="32" height="23">
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
+		<footer>
+			<div class="container">
+				<strong class="footer-logo"><a href="#"><img src="images/footer-logo.png" alt="Logo" />Make up</a></strong>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>

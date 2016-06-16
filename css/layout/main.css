@@ -1,0 +1,264 @@
+.main{
+	padding: 80px 0 0;
+	margin: 0 0 62px;
+}
+.promo-frame{
+	background: #c6ced1;
+	margin: -80px 0 85px;
+	padding: 62px 0 0;
+}
+.promo-frame .container{
+	max-width: 1120px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.promo-frame .text-holder{
+	width: 465px;
+	margin: -56px 0 0 143px;
+}
+.promo-frame .text-holder h2{
+	font-family: 'vetkaregular';
+	font-weight: 400;
+	font-size: 4em;
+	color:#000;
+	margin: 0 0 29px;
+	display: block;
+	line-height: 73px;
+}
+.promo-frame .text-holder span{
+	font-weight: 300;
+	font-size: 1.67em;
+	color:#000;
+	margin: 0 0 67px;
+	display: block;
+}
+.promo-frame .container img{
+	margin: 0;
+}
+.program-box{
+	width: 961px;
+	margin: 0 auto 94px;
+}
+.program-box img{
+	border: 1px solid #7f7f7f;
+}
+.main .topic{
+	display: block;
+	background: url(../../images/h3-bg.png) 0 16px repeat-x;
+	text-align: center;
+	margin: 0 auto 71px;
+	width: 961px;
+}
+.main .topic span{
+	font-family: 'vetkaregular';
+	font-weight: 400;
+	font-size: 2.61em;
+	color:#000;
+	background: #fff;
+	margin: 0;
+	padding: 0 20px;
+	letter-spacing: 5px;
+}
+.programs .image-holder{
+	margin: 0 0 25px;
+}
+.programs li{
+	width: 670px;
+	margin: 0 0 81px;
+}
+.programs li h4{
+	font-weight: 300;
+	font-size: 1.67em;
+	text-align: center;
+	margin: 0 0 16px;
+}
+.service-list li{
+	width: 632px;
+	font-weight: 400;
+	font-size: 1em;
+	padding: 0 0 0 43px;
+	margin: 0;
+}
+.service-list .value{
+	background: url(../../images/img-01.png) 0 8px no-repeat;
+}
+.service-list .quantity{
+	background: url(../../images/img-02.png) 0 8px no-repeat;
+}
+.service-list .teacher{
+	background: url(../../images/img-03.png) 0 8px no-repeat;
+}
+.service-list .duration{
+	background: url(../../images/img-04.png) 0 8px no-repeat;
+}
+.service-list .provided{
+	background: url(../../images/img-05.png) 0 8px no-repeat;
+}
+.service-list .diploma{
+	background: url(../../images/img-06.png) 0 8px no-repeat;
+}
+.advantages-box{
+	width: 961px;
+	margin: 0 auto 11px;
+}
+.advantages{
+	width: 961px;
+	overflow: hidden;
+}
+.advantages li{
+	max-width: 50%;
+	float: left;
+	font-weight: 400;
+	font-size: 1em;
+	padding: 0;
+	margin: 0 0 76px;
+}
+.advantages li img{
+	border-radius: 50%;
+}
+.advantages li .image-holder{
+	margin: 0 0 13px;
+}
+.advantages li .li-box{
+	padding: 0 47px;
+}
+.advantages li h4{
+	font-weight: 300;
+	font-size: 1.67em;
+	margin: 0 0 8px;
+}
+.graduates-work{
+	width: 961px;
+	margin: 0 auto 154px;
+}
+.command{
+	width: 961px;
+	margin: 0 auto 95px;
+}
+.command img{
+	border: 1px solid #878787;
+}
+.command-list{
+	overflow: hidden;
+	width: 708px;
+	margin: 0 0 80px 39px;
+	position: relative;
+	background: #fff;
+	z-index: 10;
+}
+.command-list:after{
+	content: "";
+	position:absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 46px;
+	border:2px solid #e2937f;
+	border-bottom: 0;
+	border-left: 0;
+}
+.command-list:before {
+	content: "";
+	position:absolute;
+	bottom:0;
+	right:0;
+	width: 48px;
+	height: 46px;
+	border:2px solid #e2937f;
+	border-top: 0;
+	border-left: 0;
+}
+.command-list .image-holder{
+	float: left;
+	margin: 0 46px 0 0;
+}
+.command-list .text-holder{
+	overflow: hidden;
+	margin: 45px 0 0;
+}
+.command-list .text-holder strong{
+	font-weight: 400;
+	font-size: 1.67em;
+	display: block;
+	margin: 0 0 35px;
+}
+.command-list .text-holder span{
+	font-weight: 400;
+	font-size: 1em;
+}
+.reviews{
+	margin: 0 auto 76px;
+}
+.contacts{
+	margin: 0 auto 51px;
+}
+.maps-box{
+	max-width: 100%;
+}
+#map{
+	position: relative;
+	height: 642px;
+	width: 100%;
+}
+.contact-holder{
+	width: 390px;
+	background: rgba(255,255,255,0.7);
+	position:absolute;
+	top:0;
+	left:20%;
+	margin: 0 0 0 -51px;
+	padding: 49px 0 50px 44px;
+	z-index: 5;
+}
+.contacts h4{
+	font-weight: 400;
+	font-size: 1.67em;
+	text-align: center;
+	margin: 0 0 46px;
+}
+.contacts .telephone{
+	display: block;
+	background: url(../../images/phone.png) 0 6px no-repeat;
+	padding: 0 0 0 73px;
+	margin: 0 0 8px;
+}
+.contacts span{
+	font-weight: 400;
+	font-size: 1em;
+	color:#000;
+}
+.contacts address{
+	display: block;
+	background: url(../../images/address.png) 0 2px no-repeat;
+	padding: 0 0 0 73px;
+	margin: 0 0 78px;
+}
+.social-holder{
+	text-align: center;
+	width: 360px;
+	margin: 0 auto;
+}
+.social-holder h4{
+	font-weight: 400;
+	font-size: 1.67em;
+	margin: 0 0 25px;
+}
+.social-list{
+	overflow: hidden;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.social-list li{
+	width: 32px;
+	height: 31px;
+}
+.social-list li a{
+	display: inline-block;
+}

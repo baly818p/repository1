@@ -1,5 +1,11 @@
 .header{
 	background: rgba(0,0,0,0.7);
+	padding: 8px 0;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 50;
 }
 .header .container{
 	max-width: 840px;
@@ -8,25 +14,32 @@
 }
 .logo {
 	float: left;
-	margin: 0;
+	margin: 4px 0 0;
 	width:92px;
  	height:54px;
- 	background:url(../images/logo.png) no-repeat;
+ 	background:url(../../images/logo.png) no-repeat;
 }
 .logo a {
- text-indent:-9999px;
- overflow:hidden;
- display:block;
- height:100%;
+	overflow:hidden;
+	display:block;
+	height:100%;
 }
 .contact-box{
 	float: right;
-	width: 250px;
+	width: 241px;
 }
 .contact-box .telephone{
 	display: block;
+	background: url(../../images/phone.png) 0 6px no-repeat;
+	padding: 0 0 0 42px;
 }
-.contact-box .telephone span{
+.contact-box span{
 	font-weight: 400;
 	font-size: 0.777em;
+	color:#fff;
+}
+.contact-box address{
+	display: block;
+	background: url(../../images/address.png) 0 2px no-repeat;
+	padding: 0 0 0 42px;
 }
